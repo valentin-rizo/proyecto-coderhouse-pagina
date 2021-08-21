@@ -53,11 +53,14 @@ h1 {
 
 }
 
-.aline-Principal{
-  margin-top: 10px;
-  padding-left: 530px;
-
+/* agregue el boostrap */
+.aline-Principal {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
 }
+
 
 .borders{
   border: black;
