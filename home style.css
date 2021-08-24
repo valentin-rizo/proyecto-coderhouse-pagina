@@ -77,3 +77,11 @@ h1 {
 
 }
 
+/* adaptamos a mobile */
+@media(max-width: 400px){
+  .style-grid{
+    justify-content: space-around;
+    justify-items: center;
+  
+  }
+}
