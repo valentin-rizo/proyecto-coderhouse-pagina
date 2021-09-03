@@ -82,7 +82,8 @@ h1 {
 .style-grid{
   display: grid;
   grid-template-columns: 20%;
-
+  justify-items: center;
+  justify-content: space-around;
 }
 
 /* adaptamos a mobile */
