@@ -9,6 +9,13 @@
     padding-top: 6px;
     margin-left: 6cm;
   }
+  .navbar-custom .navbar-brand,
+  .navbar-custom .navbar-text {
+      color: #01061d;
+      padding: 0.8rem 1rem;
+  }
+
+
   h1{
     text-align: right;
     padding: 6px;

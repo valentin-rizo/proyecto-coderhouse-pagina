@@ -7,6 +7,20 @@ nav{
   background-color: rgb(34, 32, 49);
 }
 
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #01061d;
+    padding: 0.8rem 1rem;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+    background-color: #ee4400; 
+}.navbar-custom {
+    background-color: #ff5500;
+}
+
 .position {
 display: flex;
 justify-content: center

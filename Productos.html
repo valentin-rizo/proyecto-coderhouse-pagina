@@ -10,13 +10,25 @@
 </head>
 <body>
     <header>
-        <nav class="position">
-           <a href="index.html" class="position__1">Incio </a>
-           <a href="QuienesSomos.html" class="position__2">Quienes somos</a>
-           <a href="Productos.html" class="position__3">Productos</a>
-           <a href="Formas de pago.html" class="position__4">Formas de Pago</a>
-           <a href="Contacto.html" class="position__5">Contacto</a>
-        </nav>
+        <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="QuienesSomos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Formas de pago.html">Formas de pago</a>
+              </li>
+            </ul>
+          </nav>
    </header>
     <h1>Productos</h1>
 
@@ -27,10 +39,10 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="fotos/gorra para carousel.jpg" alt="..." class="d-block ">
+          <img src="fotos/gorra 1.jpg" alt="..." class="d-block ">
         </div>
         <div class="carousel-item">
-          <img src="fotos/gorra carousel 2.jpg" alt="..." class="d-block">
+          <img src="fotos/gorra 2.jpg" alt="..." class="d-block">
         </div>
       </div>
       <a href="#carouselExample" class="carousel-control-prev" role="button" data-slide="prev">
@@ -43,40 +55,19 @@
       </a>
     </div>
     
-    <div>
-        <table>
-            <caption>Tabla de Talles</caption>
-            <tbody>
-                <tr>
-                    <td></td>
-                    <th>S</th>
-                    <th>M</th>
-                    <th>L</th>
-                    <th>XL</th>    
-                </tr>
-                <tr>
-                    <th>Hombros</th>
-                    <th>45</th>
-                    <th>46</th>
-                    <th>44</th>
-                    <th>48</th>
-                </tr>
-                <tr>
-                    <th>Contorno</th>
-                    <th>54</th>
-                    <th>56</th>
-                    <th>57</th>
-                    <th>58</th>
-                </tr>
-                <tr>
-                    <th>Largo</th>
-                    <th>65</th>
-                    <th>67</th>
-                    <th>69</th>
-                    <th>71</th>
-                </tr>
-            </tbody>
-        </table>
+    <div class="flex-area">
+        <section>
+            <img class="foto-1" src="fotos/gorra plana roja.jpg" alt="">
+            <button>ver mas</button>
+        </section>
+        <section >
+            <img class="foto-2" src="fotos/gorra ny.jpg" alt="">
+            <button>ver mas</button>
+        </section>
+        <section>
+            <img class="foto-3" src="fotos/gorra la.jpg" alt="">
+            <button>ver mas</button>
+        </section>
     </div>
     
 

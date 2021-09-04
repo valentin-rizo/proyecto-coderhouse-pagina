@@ -3,7 +3,11 @@
   justify-content: center;
 }
 
-
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #01061d;
+    padding: 0.8rem 1rem;
+}
   .titulo-principal{
     text-align: center;
     
