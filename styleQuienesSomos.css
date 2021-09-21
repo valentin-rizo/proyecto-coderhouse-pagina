@@ -1,0 +1,75 @@
+.position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #01061d;
+  padding: 0.8rem 1rem;
+}
+
+body {
+  background-color: slategray;
+}
+
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.izquierda {
+  padding-left: 5px;
+  border: black;
+  border-style: solid;
+  background-color: cornflowerblue;
+}
+
+.derecha {
+  padding-right: 5px;
+  padding-left: 5px;
+  border: black;
+  border-style: solid;
+  background-color: cornflowerblue;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 5%;
+}
+
+iframe {
+  padding-left: 32%;
+}
+
+.style-footer {
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+}
+/*# sourceMappingURL=styleQuienesSomos.css.map */

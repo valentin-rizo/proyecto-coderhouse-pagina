@@ -1,0 +1,67 @@
+.position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #01061d;
+  padding: 0.8rem 1rem;
+}
+
+body {
+  background-color: slategray;
+}
+
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2%;
+  background-color: orangered;
+}
+
+.d-block {
+  height: 600px;
+  padding-right: 8cm;
+  padding-left: 8cm;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+}
+
+.d-block {
+  width: 100%;
+}
+
+.foto-1 {
+  height: 300px;
+}
+
+.foto-2 {
+  height: 300px;
+}
+
+.foto-3 {
+  height: 300px;
+}
+
+.flex-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 3cm;
+  justify-items: center;
+}
+/*# sourceMappingURL=styleProductos.css.map */

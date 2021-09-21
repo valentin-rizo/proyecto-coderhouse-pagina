@@ -1,0 +1,123 @@
+body {
+  background-color: slategray;
+}
+
+nav {
+  background-color: #222031;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #01061d;
+  padding: 0.8rem 1rem;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #ffffff;
+  background-color: #ee4400;
+}
+
+.navbar-custom {
+  background-color: #ff5500;
+}
+
+.position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.logo {
+  width: 100px;
+}
+
+.style-footer {
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  color: orangered;
+}
+
+p {
+  color: wheat;
+}
+
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Otomanopee One', sans-serif;
+}
+
+.texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aline-Principal {
+  padding: 1cm;
+  background-color: cornflowerblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.borders {
+  border: black;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 4px;
+  text-align: center;
+}
+
+.style-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20%;
+      grid-template-columns: 20%;
+  justify-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+/* adaptamos a mobile */
+@media (max-width: 400px) {
+  .style-grid {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    justify-items: center;
+  }
+}
+/*# sourceMappingURL=homeStyle.css.map */
