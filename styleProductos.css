@@ -29,9 +29,33 @@ h1 {
 }
 
 .d-block {
-  height: 600px;
+  height: 500px;
   padding-right: 8cm;
   padding-left: 8cm;
+}
+
+@media screen and (min-width: 768px) {
+  .d-block {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .d-block {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .d-block {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    height: 500px;
+  }
 }
 
 h4 {
@@ -43,18 +67,6 @@ h4 {
   width: 100%;
 }
 
-.foto-1 {
-  height: 300px;
-}
-
-.foto-2 {
-  height: 300px;
-}
-
-.foto-3 {
-  height: 300px;
-}
-
 .flex-area {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -63,5 +75,13 @@ h4 {
       justify-content: space-around;
   padding-top: 3cm;
   justify-items: center;
+}
+
+.style-footer {
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: black;
 }
 /*# sourceMappingURL=styleProductos.css.map */

@@ -9,6 +9,20 @@
     padding: 0.8rem 1rem;
 }
 
+$breakpoints:(
+  mobile:500px,
+  tablet:768px,
+  full: 1000px ,
+  sm: 300px,
+);
+
+@mixin media-up ($breakpoint) {
+     @media screen and (min-width:map-get($breakpoints, $breakpoint )) {
+      
+      @content;
+     }
+}
+
 body{
   background-color: slategray;
 }
@@ -21,9 +35,28 @@ h1{
 }
 
 .d-block{
-  height: 600px;
+  height: 500px;
   padding-right: 8cm;
   padding-left: 8cm ;
+    
+    @include media-up(tablet){
+      padding-right: 2rem;
+      padding-left: 2rem;
+      height: 300px;
+    }
+
+    @include media-up(mobile){
+      padding-right: 2rem;
+      padding-left: 2rem;
+      height: 200px;
+    } 
+
+    @include media-up(full){
+      padding-right: 2rem;
+      padding-left: 2rem;
+      height: 500px;
+    }  
+     
 }
 
 
@@ -36,20 +69,19 @@ color: white;
   width: 100%;
 }
 
-.foto-1{
-  height: 300px;
-}
 
-.foto-2{
-  height: 300px;
-}
-
-.foto-3{
-  height: 300px;
-}
 .flex-area{
   display: flex;
   justify-content: space-around;
   padding-top: 3cm;
   justify-items: center;
+}
+
+.style-footer{
+  height: 50px; 
+  width:100%; 
+  bottom:0; 
+  left:0; 
+  background-color:black;
+
 }

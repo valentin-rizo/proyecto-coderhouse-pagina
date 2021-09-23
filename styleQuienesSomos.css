@@ -55,21 +55,47 @@ h2 {
   padding-top: 5%;
 }
 
-iframe {
-  padding-left: 32%;
-}
-
 .style-footer {
   height: 50px;
   width: 100%;
-  position: absolute;
   bottom: 0;
   left: 0;
   background-color: black;
 }
 
-h4 {
+.style-footer .fot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   text-align: center;
   color: white;
+}
+
+@media screen and (min-width: 578px) {
+  .style-footer {
+    position: absolute;
+  }
+}
+
+.direccion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: cornflowerblue;
+  padding: 2rem;
+  border: black;
+}
+
+.direccion .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
 }
 /*# sourceMappingURL=styleQuienesSomos.css.map */

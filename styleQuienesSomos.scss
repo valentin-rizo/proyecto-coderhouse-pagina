@@ -9,6 +9,19 @@
     padding: 0.8rem 1rem;
 }
 
+$breakpoints:(
+  mobile:500px,
+  tablet:768px,
+  full: 578px ,
+);
+
+@mixin media-up ($breakpoint) {
+     @media screen and (min-width:map-get($breakpoints, $breakpoint )) {
+      
+      @content;
+     }
+}
+
 body{
   background-color: slategray;
 }
@@ -44,20 +57,35 @@ h2{
   padding-top: 5%;
 }
 
-iframe{
-  padding-left: 32%;
-}
 
 .style-footer { 
   height: 50px; 
-  width:100%; 
-  position:absolute; 
+  width:100%;  
   bottom:0; 
   left:0; 
   background-color:black;
+      .fot{
+        display: flex;
+        text-align: center;
+        color: white;
+  }
+
+  @include media-up(full){
+    position: absolute;
+  }
 }
 
-h4 {
-  text-align: center;
-  color: white;
+
+.direccion{
+  display: flex;
+  justify-content: center;
+  background-color:  cornflowerblue;
+  padding: 2rem;
+  border: black;
+     .text{ 
+       display: flex;
+       justify-content: center;
+       color: black;
+       }
 }
+
